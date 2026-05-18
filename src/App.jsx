@@ -60,19 +60,19 @@ function App() {
           <div className="rounded-3xl bg-white p-6 shadow-lg ring-1 ring-sky-100 h-full">
             <div className="flex flex-col h-full rounded-2xl bg-gradient-to-br from-sky-100 via-white to-emerald-100 p-8 overflow-hidden relative group">
               <p className="text-sm font-semibold text-sky-700 z-10">กิจกรรมที่น่าสนใจ</p>
-              
+
               <div className="mt-4 flex-1 flex items-center justify-center z-10">
-                <img 
-                  src="/volunteer_illustration.png" 
-                  alt="Volunteer Illustration" 
+                <img
+                  src="/volunteer_illustration.png"
+                  alt="Volunteer Illustration"
                   className="w-full max-w-[220px] object-contain drop-shadow-2xl transition-transform duration-700 group-hover:scale-105 group-hover:-translate-y-2"
                 />
               </div>
 
               <div className="mt-6 rounded-xl bg-white/70 p-4 text-center text-sm leading-relaxed text-slate-700 shadow-sm backdrop-blur-md ring-1 ring-white/50 z-10">
-                <span className="font-semibold text-slate-900">ร่วมสร้างสรรค์สื่อการเรียนรู้</span> <br/> เพื่อเป็นส่วนหนึ่งในการพัฒนาการศึกษาของเด็กไทย
+                <span className="font-semibold text-slate-900">ร่วมสร้างสรรค์สื่อการเรียนรู้</span> <br /> เพื่อเป็นส่วนหนึ่งในการพัฒนาการศึกษาของเด็กไทย
               </div>
-              
+
               {/* Decorative background elements */}
               <div className="absolute -bottom-10 -right-10 h-40 w-40 rounded-full bg-emerald-200/40 blur-3xl transition-transform duration-700 group-hover:scale-150"></div>
               <div className="absolute -top-10 -left-10 h-32 w-32 rounded-full bg-sky-200/40 blur-3xl transition-transform duration-700 group-hover:scale-150"></div>
@@ -164,8 +164,6 @@ function App() {
         <FadeInSection id="contact" className="space-y-8">
           <SectionTitle
             eyebrow="ติดต่อเรา"
-            title="[หัวข้อติดต่อ เช่น หากมีข้อสงสัยทักมาได้เลย!]"
-            description="[คำอธิบาย เช่น สามารถติดต่อสอบถามรายละเอียดเพิ่มเติมได้ตามช่องทางด้านล่างนี้]"
           />
           <div className="grid gap-4 lg:grid-cols-[1.3fr_1fr]">
             <article className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-sky-100">
@@ -274,7 +272,7 @@ function App() {
             </button>
           </div>
         </div>
-      )} 
+      )}
     </div>
   );
 }
